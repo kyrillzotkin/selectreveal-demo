@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde?>
+<!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
+<target name="makeithappen_e3" sequenceNumber="1515314172">
+  <locations>
+    <location includeMode="slicer" includeAllPlatforms="true" includeSource="false" includeConfigurePhase="true" type="InstallableUnit">
+      <unit id="org.eclipse.emf.ecp.application.e3" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emf.ecp.e3.feature.feature.group" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emf.ecp.ecore.feature.feature.group" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emf.ecp.emfforms.runtime.feature.feature.group" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emfforms.setup.base" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emf.ecp.feature.feature.group" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emf.ecp.validation.view.feature.feature.group" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emf.ecp.view.table.validation" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emf.ecp.view.treemasterdetail.validation" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emfforms.core.services.databinding.index" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emfforms.core.services.databinding.mapping" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emfforms.core.services.domainexpander.index" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emfforms.core.services.domainexpander.mapping" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emfforms.core.services.structuralchange.index" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emfforms.core.services.structuralchange.mapping" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emf.ecp.view.indexdmr.model" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emf.ecp.view.mappingdmr.model" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emfforms.swt.control.multiattribute" version="1.15.0.20171220-1057"/>
+      <unit id="org.eclipse.emfforms.editor.feature.feature.group" version="1.15.0.20171220-1057"/>
+      <repository id="ecp" location="http://download.eclipse.org/ecp/releases/releases_target_115/"/>
+    </location>
+    <location includeMode="slicer" includeAllPlatforms="true" includeSource="false" includeConfigurePhase="true" type="InstallableUnit">
+      <unit id="org.eclipse.platform.feature.group" version="4.7.2.v20171130-0510"/>
+      <unit id="org.eclipse.rcp.feature.group" version="4.7.2.v20171130-0510"/>
+      <unit id="org.eclipse.rcp.configuration.feature.group" version="1.1.2.v20171130-0510"/>
+      <unit id="org.eclipse.rcp.source.feature.group" version="4.7.2.v20171130-0510"/>
+      <unit id="org.eclipse.equinox.sdk.feature.group" version="3.13.2.v20171108-1834"/>
+      <unit id="org.eclipse.equinox.executable.feature.group" version="3.7.2.v20171108-1834"/>
+      <unit id="org.eclipse.platform.ide" version="4.7.2.M20171130-0510"/>
+      <unit id="org.eclipse.jdt.core" version="3.13.100.v20171123-1049"/>
+      <unit id="org.eclipse.pde.core" version="3.11.100.v20170517-0724"/>
+      <repository id="updates4_7" location="http://download.eclipse.org/eclipse/updates/4.7"/>
+    </location>
+    <location includeMode="slicer" includeAllPlatforms="true" includeSource="false" includeConfigurePhase="true" type="InstallableUnit">
+      <unit id="org.eclipse.emf.sdk.feature.group" version="2.13.0.v20170609-0928"/>
+      <unit id="org.eclipse.emf.validation.sdk.feature.group" version="1.11.0.201706061352"/>
+      <unit id="org.eclipse.emf.transaction.sdk.feature.group" version="1.11.0.201706061339"/>
+      <unit id="org.eclipse.net4j.sdk.feature.group" version="4.6.0.v20170522-0642"/>
+      <unit id="org.eclipse.emf.cdo.sdk.feature.group" version="4.6.0.v20170602-1611"/>
+      <unit id="org.eclipse.pde.feature.group" version="3.13.2.v20171130-0510"/>
+      <unit id="org.eclipse.pde.api.tools.ee.javase16" version="1.1.0.v20170118-0848"/>
+      <unit id="org.eclipse.pde.api.tools.ee.javase17" version="1.1.0.v20170118-0848"/>
+      <unit id="org.eclipse.pde.api.tools.ee.javase18" version="1.1.0.v20170118-0848"/>
+      <unit id="org.eclipse.ocl.all.sdk.feature.group" version="5.3.0.v20170607-1133"/>
+      <unit id="org.eclipse.m2m.qvt.oml.sdk.feature.group" version="3.7.0.v20170604-1316"/>
+      <unit id="org.eclipse.xtend.sdk.feature.group" version="2.12.0.v20170519-1412"/>
+      <unit id="org.eclipse.emf.ecp.sdk.e4.feature.feature.group" version="1.15.0.20171204-2237"/>
+      <repository id="oxygen" location="http://download.eclipse.org/releases/oxygen"/>
+    </location>
+  </locations>
+</target>

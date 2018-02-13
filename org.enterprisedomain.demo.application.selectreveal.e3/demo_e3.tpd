@@ -1,0 +1,51 @@
+target "makeithappen_e3" with allEnvironments configurePhase
+
+location ecp "http://download.eclipse.org/ecp/releases/releases_target_115/" {
+	org.eclipse.emf.ecp.application.e3 [1.13.1,2.0.0)
+	org.eclipse.emf.ecp.e3.feature.feature.group [1.13.1,2.0.0)
+	org.eclipse.emf.ecp.ecore.feature.feature.group [1.13.1,2.0.0)
+	org.eclipse.emf.ecp.emfforms.runtime.feature.feature.group [1.13.1,2.0.0)
+	org.eclipse.emfforms.setup.base [1.13.1,2.0.0)
+	org.eclipse.emf.ecp.feature.feature.group [1.13.1,2.0.0)
+	org.eclipse.emf.ecp.validation.view.feature.feature.group [1.13.1,2.0.0)
+	org.eclipse.emf.ecp.view.table.validation [1.13.1,2.0.0)
+	org.eclipse.emf.ecp.view.treemasterdetail.validation [1.13.1,2.0.0)
+	org.eclipse.emfforms.core.services.databinding.index [1.13.1,2.0.0)
+	org.eclipse.emfforms.core.services.databinding.mapping [1.13.1,2.0.0)
+	org.eclipse.emfforms.core.services.domainexpander.index [1.13.1,2.0.0)
+	org.eclipse.emfforms.core.services.domainexpander.mapping [1.13.1,2.0.0)
+	org.eclipse.emfforms.core.services.structuralchange.index [1.13.1,2.0.0)
+	org.eclipse.emfforms.core.services.structuralchange.mapping [1.13.1,2.0.0)
+	org.eclipse.emf.ecp.view.indexdmr.model [1.13.1,2.0.0)
+	org.eclipse.emf.ecp.view.mappingdmr.model [1.13.1,2.0.0)
+	org.eclipse.emfforms.swt.control.multiattribute [1.13.1,2.0.0)
+	org.eclipse.emfforms.editor.feature.feature.group [1.13.1,2.0.0)
+}
+
+location updates4_7 "http://download.eclipse.org/eclipse/updates/4.7" {
+	org.eclipse.platform.feature.group
+	org.eclipse.rcp.feature.group
+	org.eclipse.rcp.configuration.feature.group
+	org.eclipse.rcp.source.feature.group
+	org.eclipse.equinox.sdk.feature.group
+	org.eclipse.equinox.executable.feature.group
+	org.eclipse.platform.ide
+	org.eclipse.jdt.core
+	org.eclipse.pde.core	
+}
+
+location oxygen "http://download.eclipse.org/releases/oxygen" {
+	org.eclipse.emf.sdk.feature.group
+	org.eclipse.emf.validation.sdk.feature.group
+	org.eclipse.emf.transaction.sdk.feature.group
+	org.eclipse.net4j.sdk.feature.group
+	org.eclipse.emf.cdo.sdk.feature.group
+	org.eclipse.pde.feature.group
+	org.eclipse.pde.api.tools.ee.javase16
+	org.eclipse.pde.api.tools.ee.javase17
+	org.eclipse.pde.api.tools.ee.javase18
+	org.eclipse.ocl.all.sdk.feature.group
+	org.eclipse.m2m.qvt.oml.sdk.feature.group
+	org.eclipse.xtend.sdk.feature.group
+	org.eclipse.emf.ecp.sdk.e4.feature.feature.group
+}

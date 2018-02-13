@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            icon="icons/logo_256.png">
+         <run
+               class="org.enterprisedomain.demo.application.selectreveal.e3.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.enterprisedomain.demo.application.selectreveal.e3.application"
+            name="Demo Sample e3 Product">
+         <property
+               name="appName"
+               value="MakeItHappen Sample e3 Product">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/logo_256.png">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="id"
+         name="name"
+         point="org.eclipse.emf.ecp.ui.uiProviders">
+      <uiProvider
+            class="org.enterprisedomain.demo.application.selectreveal.e3.DemoUIProvider"
+            provider="org.eclipse.emf.ecp.makeithappen.application.selectreveal.e3.id">
+      </uiProvider>
+   </extension>
+   <extension
+         id="id"
+         name="Demo"
+         point="org.eclipse.emf.ecp.core.providers">
+      <provider
+            class="org.enterprisedomain.demo.application.selectreveal.e3.DemoProvider">
+      </provider>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated domain -->
+      <package
+            uri="http://org/eclipse/emf/ecp/makeithappen/application/selectreveal/e3/domain/"
+            class="org.enterprisedomain.demo.application.selectreveal.e3.domain.DomainPackage"
+            genModel="model/domain.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecp.ui.modelElementOpener">
+      <modelElementOpener
+            class="org.enterprisedomain.demo.application.selectreveal.e3.ModelElementOpener">
+         <staticTester
+               modelElement="org.eclipse.emf.ecore.EObject"
+               priority="4">
+         </staticTester>
+      </modelElementOpener>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecp.core.filters">
+      <FilterProvider
+            class="org.enterprisedomain.demo.application.selectreveal.e3.FilterProvider">
+      </FilterProvider>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.adapters">
+      <factory
+            adaptableType="org.enterprisedomain.demo.application.selectreveal.e3.DemoProvider"
+            class="org.enterprisedomain.demo.application.selectreveal.e3.DemoProvider">
+         <adapter
+               type="org.eclipse.emf.ecore.resource.ResourceSet">
+         </adapter>
+         <adapter
+               type="org.eclipse.emf.ecp.core.ECPProvider">
+         </adapter>
+      </factory>
+   </extension>
+
+</plugin>
