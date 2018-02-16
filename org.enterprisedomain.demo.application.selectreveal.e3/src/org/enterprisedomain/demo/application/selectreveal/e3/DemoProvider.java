@@ -356,7 +356,7 @@ public class DemoProvider extends DefaultProvider implements IAdapterFactory {
 				}
 			}
 		} else if (element instanceof EObject) {
-			return getModelContextFromAdapter(((EObject) element).eContainer().eResource());
+			return getModelContext(((EObject) element).eResource());
 		}
 		return super.getModelContext(element);
 	}
